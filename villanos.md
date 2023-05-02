@@ -1,0 +1,3 @@
+Tanos
+Octopus
+Duende Verde
