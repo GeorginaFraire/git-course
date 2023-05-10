@@ -37,13 +37,13 @@ _Nota 💡 : Si la rama se creo con `git branch` moverse a esa rama utilizando e
 22. Aplicamos y eliminamos los cambios de villanos ( en dos pasos) 	(`git stash apply <id>` | `git drop <id>`) 
 23. Aplicamos y eliminamos los cambios de herores ( en 1 paso) (`git stash pop` | `git stash pop <id>`) 
 24. Vemos el listado de cambios almacenandos temporalmente y los eliminamos (`git stash list` `git stash clear`)
-25. Creamos una nueva rama "misiones-rebase" SOLO LA CREAMOS (`git branch misiones-V2`)
+25. Creamos una nueva rama "misiones-V2" SOLO LA CREAMOS (`git branch misiones-V2`)
 26. Modificamos le archivo heroes.md,  creamos un nuevo commit (`git commit -am "agregamos a x en heores.md"`) y vemos el historial de commig (`git log`|	`git lg`)
 27. Nos movemos a la rama que creamos anteriormente (`git checkout misiones-V2` | `git switch misiones-V2`)
 
 _Nota 💡: Se puede observar que la rama main tiene un commit extra que no esta dentro de la rama  misiones-V2_ 
 
-28. Actualizamos la rama misiones-rebase. (`git rebase misisones-V2`) y vemos el historial de commits (`git log` | `git lg`) 
+28. Actualizamos la rama misiones-V2. (`git rebase misisones-V2`) y vemos el historial de commits (`git log` | `git lg`) 
 
 _Nota 💡: Si hubieramos tenido cambios (commits) que solo estuvieran en la rama misiones-rebase esos cambios se hubieran ido hasta el final del listado de commit_ 
 
