@@ -4,8 +4,8 @@
 
 https://user-images.githubusercontent.com/97203617/235765971-239fec4a-5daf-476b-8be1-fa94bbdf822c.mov
 
-2. Abrimos la carpeta que en VSCode e nicializar el repositorio. (`git init`)  y renombramos la rama princial (`git branch -M main`)
-3. Creamos el primer commit  (`git commit -m "commit inicial" `) 
+2. Abrimos la carpeta que en VSCode e inicializar el repositorio. (`git init`)  y renombramos la rama princial (`git branch -M main`)
+3. Creamos el primer commit  (`git add . `, `git commit -m "commit inicial" `) 
 
 _Nota 💡 : Para ver las diferencias entre el ultimo estado conocido del repositorio en comparacion con lo que se esta trabajando actualmente_ 
 
