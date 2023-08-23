@@ -1,4 +1,4 @@
-# git-course 
+# git-course.
 
 1. Descargar el contenido de este repositorio. (⚠️ DESCARGAR NO CLONAR) 
 
